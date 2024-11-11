@@ -89,7 +89,8 @@ EMAIL_HOST_PASSWORD = env('EMAIL_PASS')  # Updated to use a generic variable nam
 WSGI_APPLICATION = 'portfoliyo.wsgi.application'
 
 
-ALLOWED_HOSTS = ['muhdshabeer.pythonanywhere.com']
+ALLOWED_HOSTS = ['muhdshabeer.pythonanywhere.com', 'localhost', '127.0.0.1']
+
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
